@@ -1,8 +1,8 @@
 //Ejercicio No.1
 
 // Solicitar al usuario que ingrese un número
+const prompt = require('prompt-sync')();
 let numero = parseInt(prompt("Introduce un número:"));
-
 // Verificar que el número ingresado es positivo
 if (isNaN(numero) || numero <= 0) {
     console.log("Por favor, ingresa un número entero positivo.");
@@ -16,6 +16,7 @@ if (isNaN(numero) || numero <= 0) {
 //Ejercicio No.2
 
 // Solicitar al usuario que ingrese un número entero
+const prompt = require('prompt-sync')();
 let numero = parseInt(prompt("Introduce un número entero:"));
 
 // Verificar que el número ingresado es un entero positivo
@@ -39,6 +40,7 @@ if (isNaN(numero) || numero <= 0) {
 //Ejercicio No.3
 
 // Solicitar al usuario que ingrese un número entero positivo
+const prompt = require('prompt-sync')();
 let numero = parseInt(prompt("Introduce un número entero positivo:"));
 
 // Verificar que el número ingresado es un entero positivo
